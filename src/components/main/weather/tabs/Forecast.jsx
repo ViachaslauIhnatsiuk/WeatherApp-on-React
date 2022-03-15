@@ -15,7 +15,7 @@ const Forecast = (props) => {
 					<div className={styles.current__right}>
 						<div className={styles.current__time}></div>
 						<div className={styles.current__weather}></div>
-						<div className={styles.current__icon}><img src="" className={styles.current__img} /></div>
+						<div className={styles.current__icon}><img src="" className={styles.current__img} alt='img' /></div>
 					</div>
 				</div>
 			</div>

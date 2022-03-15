@@ -1,9 +1,9 @@
 .input {
 	flex: 1 1 auto;
 	height: 100%;
+	padding: 0 15px;
 	outline: none;
 	font-size: 18px;
-	line-height: 21.09px;
 }
 
 .input::placeholder {
