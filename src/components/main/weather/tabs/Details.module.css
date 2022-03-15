@@ -1,0 +1,13 @@
+.details {
+	width: 100%;
+	height: 345px;
+	padding: 33px 0px 23px 15px;
+}
+
+.details__location {
+	margin-bottom: 45px;
+}
+
+.details__data li:not(:last-child) {
+	margin-bottom: 14px;
+}

@@ -1,0 +1,35 @@
+.now {
+	width: 100%;
+	height: 345px;
+	padding: 33px 0px 23px 15px;
+}
+
+.now__temperature {
+	font-size: 70px;
+	line-height: 117.19%;
+	text-align: left;
+	padding-left: 11px;
+	margin-bottom: 25px;
+}
+
+.now__icon {
+	text-align: center;
+	margin-bottom: 50px;
+	height: 100px;
+}
+
+.now__bottom {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.now__location {
+	font-size: 24px;
+}
+
+.now__favorite {
+	cursor: pointer;
+	margin-right: 25px;
+	position: relative;
+}

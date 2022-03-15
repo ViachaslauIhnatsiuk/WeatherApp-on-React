@@ -3,8 +3,11 @@
 	height: 100%;
 	outline: none;
 	font-size: 18px;
-	border-radius: 5px 0 0 5px;
-	padding: 0 15px;
+	line-height: 21.09px;
+}
+
+.input::placeholder {
+	color: #696969;
 }
 
 .input:focus::placeholder {

@@ -15,10 +15,16 @@ ul li {
 	list-style: none;
 }
 
+body {
+	background-color: #f1f1f1;
+}
+
 .wrapper {
 	font-family: "Roboto";
 	width: 600px;
 	height: 435px;
 	margin: 150px auto 0;
+	background-color: #fff;
 	border: 1px solid #000;
+	outline: 10px solid #fff;
 }
