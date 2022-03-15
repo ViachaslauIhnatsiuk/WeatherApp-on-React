@@ -1,0 +1,13 @@
+.input {
+	flex: 1 1 auto;
+	height: 100%;
+	outline: none;
+	font-size: 18px;
+	border-radius: 5px 0 0 5px;
+	padding: 0 15px;
+}
+
+.input:focus::placeholder {
+	color: transparent;
+	transition: 0.3s;
+}

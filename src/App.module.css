@@ -1,0 +1,24 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul li {
+	list-style: none;
+}
+
+.wrapper {
+	font-family: "Roboto";
+	width: 600px;
+	height: 435px;
+	margin: 150px auto 0;
+	border: 1px solid #000;
+}
