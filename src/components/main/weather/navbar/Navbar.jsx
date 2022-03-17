@@ -2,9 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
+
 const setActive = ({ isActive }) => (isActive ? styles.active : "")
 
-const Navbar = (props) => {
+const Navbar = () => {
+	console.log();
 	return (
 		<div className={styles.navbar}>
 			<div className={styles.tab}><NavLink to='/' className={setActive}>Now</NavLink></div>
