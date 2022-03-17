@@ -17,11 +17,11 @@ const Header = (props) => {
 	let weather = {};
 	let forecast = { 1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}, 7: {}, 8: {} };
 
-	function getForecast(e) {
+	async function getForecast(e) {
 		e.preventDefault();
 		const urlWeather = `${URL.SERVER_WEATHER}?q=${city.name}&appid=${URL.API_KEY}`;
 		const urlForecast = `${URL.SERVER_FORECAST}?q=${city.name}&appid=${URL.API_KEY}`;
-		fetch(urlWeather)
+		await fetch(urlWeather)
 			.then(response => response.json())
 			.then(response => {
 				weather.name = response.name
@@ -33,7 +33,7 @@ const Header = (props) => {
 				weather.sunset = response.sys.sunset
 			})
 			.catch(error => alert(error.message + '\nPlease, enter correct data'))
-		fetch(urlForecast)
+		await fetch(urlForecast)
 			.then(response => response.json())
 			.then(response => {
 				for (let i = 1; i <= 8; i++) {
