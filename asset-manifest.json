@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/css/main.1b4922c1.css",
+    "main.js": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/js/main.106b0fe7.js",
+    "static/media/cloud.svg": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/media/cloud.71021a67c47f2dea27150059c14ebe2f.svg",
+    "index.html": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/index.html",
+    "static/media/like.svg": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/media/like.6c15f93c3e3049004caf491e569252f5.svg",
+    "main.1b4922c1.css.map": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/css/main.1b4922c1.css.map",
+    "main.106b0fe7.js.map": "//viachaslauihnatsiuk.github.io/WeatherApp-on-React/static/js/main.106b0fe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b4922c1.css",
+    "static/js/main.106b0fe7.js"
+  ]
+}
