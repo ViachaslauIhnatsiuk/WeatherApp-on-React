@@ -12,14 +12,21 @@ function App() {
 	function updateWeather(data) {
 		setWeather({ data })
 	}
+
 	function updateForecast(data) {
 		setForecast({ data })
 	}
 
 	return (
 		<div className={styles.wrapper}>
-			<Header updateWeather={updateWeather} updateForecast={updateForecast} />
-			<Main weather={weather} forecast={forecast} />
+			<Header
+				updateWeather={updateWeather}
+				updateForecast={updateForecast}
+			/>
+			<Main
+				weather={weather}
+				forecast={forecast}
+			/>
 		</div>
 	);
 }
